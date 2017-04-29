@@ -1,0 +1,23 @@
+{
+  "name": "notable",
+  "version": "1.0.0",
+  "description": "freecodecamp.com Simple node.js api \"notable\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "notable"
+  ],
+  "author": "andresau93",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongodb": "^2.2.26"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
